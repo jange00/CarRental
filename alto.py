@@ -24,12 +24,18 @@ lb6=Label(fr,text="Last Serviced Date:  2022",font=('Roboto','9','bold'),bg="#FE
 lb7=Label(fr,text="Cost:  5300/d",font=('Roboto','9','bold'),bg="#FEFBF3",fg="#EB6383").place(x=115,y=380)
 
 def opencreatebook():
+    '''
+    Function to destroy the current  window and open the book create page for booking the car
+    '''
     root.destroy()
     import book_create
 
 btn1=Button(root,text="Book Now",font=("Roboto","12","bold"),activeforeground="white",activebackground="#FFC7C7",bg="#ff7a7a",width=29,bd=0, fg="white", command= opencreatebook).place(x=115,y=430)
 
 def opendash():
+    '''
+    Function to destroy the current window and render at dash page
+    ''' 
     root.destroy()
     import dash
 

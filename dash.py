@@ -13,30 +13,52 @@ root.geometry('1000x500')
 # =======
 
 def opendetailhonda():
+    '''
+    function which destroy the current window and open honda car details page
+    '''
     root.destroy()
     import honda
 
 def opendetaillambo():
+    '''
+    function which destroy the current window and open lamborghini car details page
+
+    '''
     root.destroy()
     import lambo
 
 def opendetailpors():
+    '''
+    function which destroy the current window and open pors car details page
+    '''
     root.destroy()
     import pors
 
 def opendetailnissan():
+    '''
+    function which destroy the current window and open nissan car details page
+    '''
     root.destroy()
     import nissan
 
 def opendetailmerce():
+    '''
+    function which destroy the current window and open merce car details page
+    '''
     root.destroy()
     import merce
 
 def opendetailalto():
+    '''
+    function which destroy the current window and open alto car details page
+    '''
     root.destroy()
     import alto
 
 def openprofile():
+    '''
+    function which destroy the current window and open the user profile page
+    '''
     root.destroy()
     import profile
 
